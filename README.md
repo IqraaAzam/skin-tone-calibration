@@ -31,7 +31,6 @@ src/dermcal/
   power.py      approximate precision per evaluation stratum
   metrics.py    AUC, O/E ratio, calibration slope, net benefit, bootstrap intervals
   plots.py      cohort description figures
-make_public_copy.py             writes a copy without the DDI rows, which may not be redistributed
 results/
   cohorts/      cohort files, descriptive tables and figures from notebook 01
   predictions/  predicted risks from notebook 02
@@ -64,7 +63,7 @@ jupyter notebook notebooks/03_evaluation.ipynb
 
 Every dataset is obtained from its own source under its own terms; none of the images are in this repository.
 
-**DDI rows are not published here.** The Diverse Dermatology Images research use agreement states that no part of the dataset may be distributed, published or reproduced, so the published copy of this repository carries no DDI rows in its cohort and prediction files, and notebook 03 skips the DDI sections when they are absent. Aggregate results for DDI remain in `results/tables`, in the figures and in the manuscript. To restore the rows, register for DDI at <https://ddi-dataset.github.io/>, then run notebooks 01 and 02. `make_public_copy.py` is the script that removes them.
+**DDI rows are not published here.** The Diverse Dermatology Images research use agreement states that no part of the dataset may be distributed, published or reproduced, so the published copy of this repository carries no DDI rows in its cohort and prediction files, and notebook 03 skips the DDI sections when they are absent. Aggregate results for DDI remain in `results/tables`, in the figures and in the manuscript. Nothing else was changed: the DDI rows were dropped from the cohort and prediction files, and every other row and column is as the notebooks wrote it. To restore the rows, register for DDI at <https://ddi-dataset.github.io/>, then run notebooks 01 and 02.
 
 The remaining per-image rows come from datasets whose terms allow redistribution with attribution: Fitzpatrick17k under CC BY-NC-SA 3.0, PAD-UFES-20 under CC BY 4.0, and the ISIC releases under the terms of the ISIC Archive. Those rows carry the diagnosis, confirmation method and skin tone recorded by the source, together with the risk predicted by our model. Non-commercial use and share-alike therefore apply to them, and the datasets must be cited as listed below.
 
