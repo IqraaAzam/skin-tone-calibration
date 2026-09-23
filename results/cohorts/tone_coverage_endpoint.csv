@@ -1,0 +1,7 @@
+source,n,role,fitz_labelled_%,I-II_n,I-II_mal,III-IV_n,III-IV_mal,V-VI_n,V-VI_mal
+ISIC2019,33569,development,0.0,0,0,0,0,0,0
+ISIC2020,33126,development,0.0,0,0,0,0,0,0
+Fitzpatrick17k,16577,external_test,96.6,7755,1195,6089,757,2168,208
+PAD-UFES-20,2298,external_test,65.0,1029,783,454,301,11,5
+ISIC2017,2030,development,0.0,0,0,0,0,0,0
+DDI,608,external_test,100.0,201,42,232,65,175,16

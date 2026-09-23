@@ -1,0 +1,5 @@
+step,n_before,n_removed,n_after,note
+0. all records loaded,,,88208,raw union of releases
+1. drop exact duplicate image_id within source,88208.0,0.0,88208,same file listed twice in one release
+2. resolvable binary label,88208.0,29217.0,58991,drops UNK / OTHER classes that cannot be scored malignant vs benign
+3. histopathology-confirmed only,58991.0,34169.0,24822,primary analysis restriction; see verification_bias_table()

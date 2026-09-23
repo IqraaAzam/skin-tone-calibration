@@ -1,0 +1,7 @@
+source,images,lesion_id_present_%,unique_lesions,images_per_lesion,patient_id_present_%,unique_patients,images_per_patient,required_split_unit
+ISIC2019,33569,73.8,13070.0,2.57,0.0,,,lesion
+ISIC2020,33126,0.0,,,100.0,2056.0,16.11,patient
+Fitzpatrick17k,16577,0.0,,,0.0,,,image
+PAD-UFES-20,2298,100.0,1641.0,1.4,100.0,1373.0,1.67,patient
+ISIC2017,2030,0.0,,,0.0,,,image
+DDI,656,0.0,,,0.0,,,image

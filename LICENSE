@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Iqra Azam
+Copyright (c) 2026 Iqra Azam and Muhammad Sumair Saqib
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+The data files under results/ are derived from public datasets that carry their
+own terms, including Fitzpatrick17k (CC BY-NC-SA 3.0), PAD-UFES-20 (CC BY 4.0)
+and the ISIC releases. Those terms apply to the data files and are described in
+the data section of README.md.

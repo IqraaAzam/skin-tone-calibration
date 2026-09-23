@@ -1,0 +1,13 @@
+{
+  "seed": 1234,
+  "img_size": 224,
+  "epochs": 4,
+  "batch": 64,
+  "lr": 0.0003,
+  "temperature": 1.3427139520645142,
+  "n_train": 16686,
+  "n_val": 2820,
+  "model": "efficientnet_b0 ImageNet1k",
+  "min_events_for_slope": 50,
+  "n_bootstrap": 2000
+}

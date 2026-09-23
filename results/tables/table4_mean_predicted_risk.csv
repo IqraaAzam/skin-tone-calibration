@@ -1,0 +1,4 @@
+group,lesions,benign_n,benign_mean,benign_ci,malignant_n,malignant_mean,malignant_ci
+I-II,201,159,0.164,0.146-0.184,42,0.231,0.184-0.288
+III-IV,232,167,0.155,0.136-0.175,65,0.302,0.250-0.359
+V-VI,175,159,0.196,0.171-0.223,16,0.351,0.238-0.488

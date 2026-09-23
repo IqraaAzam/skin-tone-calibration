@@ -1,0 +1,10 @@
+{
+  "records_downloaded": 100503,
+  "distinct_images": 88256,
+  "with_binary_label": 59039,
+  "histopathology_confirmed": 24870,
+  "histopathology_confirmed_development": 22872,
+  "histopathology_confirmed_external": 1998,
+  "ddi_excluded_other_malignancy": 48,
+  "images_with_fitzpatrick_label": 18162
+}

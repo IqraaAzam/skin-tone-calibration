@@ -1,0 +1,33 @@
+Console output of notebook 02 run with the released weights (Kaggle, NVIDIA T4),
+after PAD-UFES-20 naevi were added to the cohorts. Existing predictions agree with
+the original run to within 0.001.
+------------------------------------------------------------------------------
+cohort_arm_a_endpoint.csv: /kaggle/input/notebooks/immuhammadsumairrazi/01-cohort/outputs/cohort_arm_a_endpoint.csv
+cohort_arm_b_endpoint.csv: /kaggle/input/notebooks/immuhammadsumairrazi/01-cohort/outputs/cohort_arm_b_endpoint.csv
+Arm A: 24,822   Arm B: 58,991
+indexed 81,545 images (10,735 duplicate file names ignored)
+matching cohort rows to image files:
+  development (Arm A)        19,506/22,872 images found (85.3%)
+  external (Arm A)            1,950/ 1,950 images found (100.0%)
+  external (Arm B)           19,480/19,483 images found (100.0%)
+train 16,686 images / 7,878 groups   held-out 2,820 / 1,391   held-out proportion malignant 0.445
+device: cuda Tesla T4
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to /root/.cache/torch/hub/checkpoints/efficientnet_b0_rwightman-7f5810bc.pth
+100%|██████████| 20.5M/20.5M [00:00<00:00, 197MB/s]
+loaded the weights of the reported run; training skipped
+temperature fitted in this session 1.343
+temperature of the reported run   1.343 (used)
+{
+  "seed": 1234,
+  "img_size": 224,
+  "epochs": 4,
+  "batch": 64,
+  "lr": 0.0003,
+  "temperature": 1.3427139520645142,
+  "n_train": 16686,
+  "n_val": 2820,
+  "model": "efficientnet_b0 ImageNet1k",
+  "min_events_for_slope": 50,
+  "n_bootstrap": 2000,
+  "weights": "released"
+}

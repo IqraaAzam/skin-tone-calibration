@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+outputs/
+cache/
+isic_official/
+isic_archive_*.csv

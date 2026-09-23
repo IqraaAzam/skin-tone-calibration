@@ -1,0 +1,7 @@
+role,source,modality,n,malignant,benign,prevalence,has_fitzpatrick_%,median_age,female_%
+development,ISIC2019,dermoscopic,19556,9454,10102,0.4834,0.0,60.0,46.1
+development,ISIC2020,dermoscopic,1667,584,1083,0.3503,0.0,55.0,41.6
+development,ISIC2017,dermoscopic,1649,373,1276,0.2262,0.0,,
+external_test,PAD-UFES-20,clinical,1342,1089,253,0.8115,100.0,64.0,50.1
+external_test,DDI,clinical,608,123,485,0.2023,100.0,,
+external_test,Fitzpatrick17k,clinical,16577,2263,14314,0.1365,96.6,,

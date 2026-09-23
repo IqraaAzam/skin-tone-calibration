@@ -1,0 +1,12 @@
+source,fst_group,n,malignant,benign,prevalence,AUC_95CI_halfwidth,OE_95CI_fold_width,calib_slope_SE,calib_bin_95CI_halfwidth,netbenefit_SE_at_pt0.1,meets_Riley_min_100,reportable_calibration,verdict
+Fitzpatrick17k,I-II,7755,1195,6560,0.1541,0.0141,1.11,0.024,0.025,0.00386,True,True,adequate
+Fitzpatrick17k,III-IV,6089,757,5332,0.1243,0.0176,1.14,0.03,0.026,0.00398,True,True,adequate
+Fitzpatrick17k,V-VI,2168,208,1960,0.0959,0.0334,1.29,0.057,0.04,0.00595,True,True,adequate
+PAD-UFES-20,I-II,1029,783,246,0.7609,0.0234,1.07,0.029,0.081,0.01492,True,True,adequate
+PAD-UFES-20,,804,0,804,0.0,,,,0.033,,False,False,NOT EVALUABLE - report counts only
+Fitzpatrick17k,,565,103,462,0.1823,0.0482,1.42,0.08,0.099,0.01532,True,True,adequate
+PAD-UFES-20,III-IV,454,301,153,0.663,0.0342,1.14,0.047,0.133,0.02331,True,True,adequate
+DDI,III-IV,232,65,167,0.2802,0.0622,1.51,0.101,0.17,0.02808,False,True,"underpowered - report interval estimates, no hypothesis test"
+DDI,I-II,201,42,159,0.209,0.0761,1.71,0.126,0.168,0.02711,False,True,"underpowered - report interval estimates, no hypothesis test"
+DDI,V-VI,175,16,159,0.0914,0.1206,2.54,0.204,0.155,0.0205,False,False,descriptive only - no calibration curve
+PAD-UFES-20,V-VI,11,5,6,0.4545,0.2497,3.65,0.365,0.397,0.14718,False,False,NOT EVALUABLE - report counts only

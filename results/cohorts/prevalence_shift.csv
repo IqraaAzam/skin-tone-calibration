@@ -1,0 +1,7 @@
+source,n_all,prevalence_all,n_histo_confirmed,prevalence_histo_only,prevalence_inflation_x
+ISIC2019,31522,0.3471,19556,0.4834,1.39
+Fitzpatrick17k,16577,0.1365,0,,
+ISIC2020,5956,0.0981,1667,0.3503,3.57
+PAD-UFES-20,2298,0.4739,1342,0.8115,1.71
+ISIC2017,2030,0.1837,1649,0.2262,1.23
+DDI,656,0.2607,656,0.2607,1.0

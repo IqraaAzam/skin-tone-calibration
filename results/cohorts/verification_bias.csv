@@ -1,0 +1,7 @@
+source,benign,malignant,verification_gap_pp,bias_risk
+DDI,100.0,100.0,0.0,none detected
+Fitzpatrick17k,0.0,0.0,0.0,none detected
+ISIC2017,77.0,100.0,23.0,HIGH
+ISIC2019,49.1,86.4,37.3,HIGH
+ISIC2020,20.2,100.0,79.8,SEVERE
+PAD-UFES-20,20.9,100.0,79.1,SEVERE

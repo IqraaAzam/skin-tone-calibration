@@ -1,0 +1,8 @@
+release,role,labels,source,records_downloaded,unique_after_dedup
+ISIC 2017,development,"challenge ground truth (train 2,000 / validation 150 / test 600)","ISIC challenge archive, 2017 Part 3",2750,2030
+ISIC 2018 Task 3,development,"train 10,015 and test 1,512 with dx_type; contained in ISIC 2019","ISIC challenge archive, 2018 Task 3",11527,0
+ISIC 2019,development,"train 25,331 and test 8,238, both with ground truth","ISIC challenge archive, 2019",33569,33569
+ISIC 2020,development,"train 33,126; test excluded (ground truth not public)","ISIC challenge archive, 2020",33126,33126
+Fitzpatrick17k,external (sensitivity),atlas labels and Fitzpatrick type; not biopsy-confirmed,Groh et al. 2021,16577,16577
+DDI,external (primary),biopsy-proven diagnoses and Fitzpatrick group,Daneshjou et al. 2022,656,656
+PAD-UFES-20,external (consistency),biopsy flag and Fitzpatrick type,Pacheco et al. 2020,2298,2298
